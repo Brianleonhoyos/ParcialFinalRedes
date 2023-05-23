@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(90deg, rgb(20, 78, 4) 0%, rgb(38, 134, 4) 63%, rgb(23, 190, 7) 100%);    color: #fff;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+/* ===================== */
+.ctnd-1{
+    width: 100%;
+    max-width: 3200px;
+    /* Poner de fondo la imagen fondoTablas.jpg */
+    background-image: url('fondoTablas.jpg');    
+    background-size: cover;
+    position: (-50%, -50%);
+}
+.cntd-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-man{
+    /*background-image: url('https://img.rawpixel.com/private/static/images/website/2022-05/rm218batch9-aum-05_1.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=c11d9911fd9b82afd5fcd2b1deec9ab2');
+    background: linear-gradient(90deg, rgba(78,65,4,1) 0%, rgba(191,193,7,1) 63%, rgba(218,231,6,1) 100%); color: #fff;*/
+    background-color: white;
+    width: 100%;
+    object-fit: cover;
+    position: (-50%, -50%);
+    
+}
+.cntd-info img{
+    width: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+.cntd-info p{
+    margin-top: 5vh;
+}
+/* ====================== */
+section#contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 130px);
+}
+
+#login {
+    width: 30%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login h1 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    /*background: linear-gradient(90deg, rgb(20, 78, 4) 0%, rgb(38, 134, 4) 63%, rgb(23, 190, 7) 100%);    color: #fff;*/
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
